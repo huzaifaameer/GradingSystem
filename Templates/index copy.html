@@ -1,0 +1,136 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="max-w-web w-full mx-auto" style="flex-grow: 1; display: flex; align-items: center;" id="step-1">
+  <div class="card w-full">
+    <h2 style="text-align:center">Enter Information</h2>
+    <div class="input-row">
+      <div class="input-wrap">
+        <label for="">Supervisor</label>
+        <select name="supervisor" class="info-input">
+          <option value="">Select supervisor</option>
+          <option value="Supervisor 1">Supervisor 1</option>
+          <option value="Supervisor 2">Supervisor 2</option>
+          <option value="Supervisor 3">Supervisor 3</option>
+        </select>
+      </div>
+    </div>
+    <div class="input-row">
+      <div class="input-wrap">
+        <label for="">Student name</label>
+        <input name="studentName" type="text" placeholder="Student name" class="info-input">
+      </div>
+      <div class="input-wrap">
+        <label for="">Student id</label>
+        <input name="studentId" type="text" placeholder="Student id" class="info-input">
+      </div>
+    </div>
+    <div class="input-row">
+      <div class="input-wrap">
+        <label for="">Project title</label>
+        <input name="projectTitle" type="text" placeholder="Project title" class="info-input">
+      </div>
+      <div class="input-wrap">
+        <label for="">Programme</label>
+        <input name="programme" type="text" placeholder="Progremme" class="info-input">
+      </div>
+    </div>
+    <div style="text-align: center;">
+      <button class="site-btn" id="info-submit">Next</button>
+    </div>
+  </div>
+</div>
+
+<div class="sidebar-layout" style="display: none;" id="step-2">
+
+  <aside class="aside">
+    <div class="p-15">
+      <div class="sidebar-wrap">
+        <div class="info-row">
+          <div class="info-name">Total selections:</div>
+          <div class="info-dash"></div>
+          <div class="info-value" id="total-selections"></div>
+        </div>
+        <div class="info-row">
+          <div class="info-name">Selections made:</div>
+          <div class="info-dash"></div>
+          <div class="info-value" id="selections-made"></div>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <section>
+      <div class="p-15">
+        {% for selection in questions %}
+
+        <div class="option-group">
+          <h3 class="option-title">{{selection.question}}</h3>
+          <div class="option-wrap">
+
+            {% for option, description in selection.options.items %}
+
+            <div class="option">
+              <div class="option-head">
+                <input type="radio" name="option {{ forloop.counter }}" value='{% if option == "EXCELLENT" %} 5
+              {% elif option == "VERY_GOOD" %} 4
+              {% elif option == "GOOD" %} 3
+              {% elif option == "ADEQUATE" %} 2
+              {% elif option == "IN_ADEQUATE" %} 1
+              {% elif option == "NO_SUBMISSION" %} 0
+              {% endif %}' data-value='{% if option == "EXCELLENT" %} excellent
+              {% elif option == "VERY_GOOD" %} verygood
+              {% elif option == "GOOD" %} good
+              {% elif option == "ADEQUATE" %} adequate
+              {% elif option == "IN_ADEQUATE" %} inadequate
+              {% elif option == "NO_SUBMISSION" %} nosubmission
+              {% endif %}
+              
+              ' />
+
+                <label for="">{{ option }}</label>
+
+              </div>
+              <div class="option-remark">{{ description }}</div>
+            </div>
+            {% endfor %}
+
+          </div>
+          <div class="option-selected-value-wrap">
+            <span class="option-selected-value"></span>
+          </div>
+        </div>
+
+        {% endfor %}
+
+      </div>
+    </section>
+  </main>
+
+  <aside class="aside">
+    <div class="p-15">
+      <div class="sidebar-wrap">
+        <div class="info-row">
+          <div class="info-name">Current score:</div>
+          <div class="info-dash"></div>
+          <div class="info-value" id="current-score"></div>
+        </div>
+        <div class="info-row">
+          <div class="info-name">Total score:</div>
+          <div class="info-dash"></div>
+          <div class="info-value" id="total-score"></div>
+        </div>
+        <div style="text-align: center;">
+          <button id="submit-score" class="site-btn">Submit</button>
+        </div>
+      </div>
+
+    </div>
+  </aside>
+</div>
+
+
+{% endblock%}

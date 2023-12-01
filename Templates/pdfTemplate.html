@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        body {
+            margin: 0px;
+            padding: 15px;
+            font-size: 1rem;
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .option-title {
+            margin-top: 0px;
+            margin-bottom: 1rem;
+            color: var(--clr-pr);
+            padding-bottom: 15px;
+            padding-top: 10px;
+            border-bottom: 1px solid rgb(0, 81, 255);
+        }
+
+        .option-group {
+            border: 1px solid rgb(157, 0, 255);
+            box-shadow: 0px 4px 10px #0003;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .option-group.excellent .option:nth-child(2) {
+            background-color: #a9d08f;
+        }
+
+        .option-group.verygood .option:nth-child(3) {
+            background-color: #c5deb4;
+        }
+
+        .option-group.good .option:nth-child(4) {
+            background-color: #e2efdb;
+        }
+
+        .option-group.adequate .option:nth-child(5) {
+            background-color: #d5dce4;
+        }
+
+        .option-group.inadequate .option:nth-child(6) {
+            background-color: #fecece;
+        }
+
+        .option-group.nosubmission .option:nth-child(7) {
+            background-color: #ffb3b3;
+        }
+
+
+        .option-wrap {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .option {
+            padding: 10px;
+            flex-grow: 1;
+            width: 100%;
+        }
+
+        .score {
+            padding: 10px;
+            border-left: 1px solid #656565;
+        }
+
+        .option-head {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 5px;
+        }
+
+        .option-head label {
+            cursor: pointer;
+            flex-grow: 1;
+        }
+
+        .option-remark {
+            text-align: justify;
+            font-size: 14px;
+            color: var(--clr-text-muted);
+        }
+
+        .option-selected-value-wrap {
+            font-size: 1.5rem;
+            text-align: right;
+            font-weight: 500;
+        }
+
+        .option input[type="radio"] {
+            flex-shrink: 0;
+            height: 20px;
+            width: 20px;
+            margin: 0px;
+            cursor: pointer;
+        }
+
+
+        .row {
+            display: flex;
+            margin-bottom: 16px;
+        }
+
+        .number {
+            width: fit-content;
+        }
+
+        .title {
+            width: 30%;
+            min-width: 300px;
+        }
+
+        .desc {
+            flex-grow: 1;
+        }
+
+        .number,
+        .desc,
+        .title {
+            padding: 10px;
+            border: 1px solid #656565;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 5px;
+            text-align: left;
+        }
+    </style>
+
+    <div>
+        <div style="text-align:center">
+            <h2 style="text-align:center">Student Information</h2>
+            <table style=" text-align: center;">
+                <tr>
+                    <th>Supervisor:</th>
+                    <td>{{user.supervisor}}</td>
+                </tr>
+                <tr>
+                    <th>Student name:</th>
+                    <td>{{user.studentName}}</td>
+                </tr>
+                <tr>
+                    <th>Student ID:</th>
+                    <td>{{user.studentId}}</td>
+                </tr>
+                <tr>
+                    <th>Project title:</th>
+                    <td>{{user.projectTitle}}</td>
+                </tr>
+                <tr>
+                    <th>Programme:</th>
+                    <td>{{user.programme}}</td>
+                </tr>
+            </table>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div>
+
+            <table style="width:100%">
+                <tr>
+                    <th style="width: 20%;">Question No.</th>
+                    <th>Selection</th>
+                    <th>Selection Text</th>
+                    <th>Score</th>
+                </tr>
+                {% for selection in selected_questions %}
+                <tr>
+                    <td style="width: 20%;">{{forloop.counter}}</td>
+                    <td>
+                        {% if selection.Selection == 6 %}
+                        Excellent
+                        {% elif selection.Selection == 5 %}
+                        Very good
+                        {% elif selection.Selection == 4 %}
+                        Good
+                        {% elif selection.Selection == 3 %}
+                        Adequate
+                        {% elif selection.Selection == 2 %}
+                        In-Adequate
+                        {% elif selection.Selection == 1 %}
+                        No submission
+                        {% endif %}
+                    </td>
+                    <td
+                        style="background-color: '{% if selection.Selection == 6 %} #a9d08f {% elif selection.Selection == 5 %}#c5deb4 {% elif selection.Selection == 4 %} #e2efdb {% elif selection.Selection == 3 %} #d5dce4{% elif selection.Selection == 2 %} #fecece{% elif selection.Selection == 1 %} #ffb3b3{% endif %}';">
+                        {% if selection.Selection == 6 %}
+                        {{selection.options.EXCELLENT}}
+                        {% elif selection.Selection == 5 %}
+                        {{selection.options.VERY_GOOD}}
+                        {% elif selection.Selection == 4 %}
+                        {{selection.options.GOOD}}
+                        {% elif selection.Selection == 3 %}
+                        {{selection.options.ADEQUATE}}
+                        {% elif selection.Selection == 2 %}
+                        {{selection.options.IN_ADEQUATE}}
+                        {% elif selection.Selection == 1 %}
+                        {{selection.options.NO_SUBMISSION}}
+
+                        {% endif %}
+                    </td>
+                    <td>
+                        {% if selection.Selection == 6 %}
+                        2.03
+                        {% elif selection.Selection == 5 %}
+                        1.9
+                        {% elif selection.Selection == 4 %}
+                        1.6
+                        {% elif selection.Selection == 3 %}
+                        1.23
+                        {% elif selection.Selection == 2 %}
+                        0.89
+                        {% elif selection.Selection == 1 %}
+                        0
+                        {% endif %}
+                    </td>
+                </tr>
+                {% endfor %}
+            </table>
+
+
+        </div>
+        <div>
+            <h1 style="text-align: center;">
+                OPEN AI Responses
+            </h1>
+        </div>
+        <div>
+            
+            
+            <table style="width:100%">
+                <tr>
+                    <th>Question</th>
+                    <th style="width: 20%;">Question No.</th>
+                    <th>OPEN-AI Response</th>
+                </tr>
+                {% for question in selected_questions %}
+                <tr>
+                    <td>
+                        {{question.question}}
+                    </td>
+                    <td style="width: 20%;">{{forloop.counter}}</td>
+                    <td>
+                        {{question.GPTResponse}}
+                    </td>
+                </tr>
+                {% endfor %}
+            </table>
+
+
+
+        </div>
+    </div>
+</body>
+
+</html>

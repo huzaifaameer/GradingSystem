@@ -1,0 +1,387 @@
+[
+    {
+        "question": "01) Select an option that best represents the student's attendance, timekeeping, engagement and preparation for supervision meetings.",
+        "options": {
+            "EXCELLENT": "Consistently attended all scheduled meetings with the supervisor.  Always punctual, and consistently displayed a highly prepared and organised approach. Demonstrated exceptional leadership skills by gradually assuming the lead role in meetings, effectively guiding discussions and driving artefactive outcomes.",
+            "VERY_GOOD": "Regularly attended scheduled meetings with supervisor, on time, and consistently arrived prepared with relevant materials and information. Actively participated in meetings, providing valuable input, and contributing to discussions. Demonstrated increasing confidence and initiative during meetings, occasionally taking the lead on certain agenda items.",
+            "GOOD": "Attended most scheduled meetings with the supervisor, generally arrived on time and adequately prepared. Generally participated in meetings, offering input, and engaging in discussions when prompted.     Occasionally displayed signs of taking initiative or assuming a leadership role during meetings.",
+            "ADEQUATE": "Attended the majority of scheduled meetings with the supervisor, but occasionally arrived late or unprepared. Showed minimal participation in meetings, with limited contributions to discussions. Rarely demonstrated any initiative or willingness to take the lead during meetings.",
+            "IN_ADEQUATE": "Consistently failed to attend scheduled meetings with the supervisor or frequently arrived late and unprepared. Rarely participated in meetings, showing disinterest or a lack of engagement. Never took the lead or demonstrated any initiative during meetings.",
+            "NO_SUBMISSION": "This criterion has not been met."
+        }
+    },
+    {
+        "question": "02) Select an option that best represents the level, quality and details of the student's supervision meeting records.",
+        "options": {
+            "EXCELLENT": "Consistently maintained high-quality documentation, providing comprehensive records of all supervisory meetings and their agreed outcomes, with clear and detailed information.",
+            "VERY_GOOD": " Maintained well-documented records of most supervisory meetings, accurately capturing key discussion points, and agreed outcomes. Demonstrated a commendable level of organisation and attention to detail.",
+            "GOOD": "Regularly kept documented records of supervisory meetings, capturing essential information, and agreed outcomes. Displayed a good level of organisation and attention to detail.",
+            "ADEQUATE": "Generally maintained documentation of supervisory meetings, recording some information, and some agreed outcomes, although with evidence of gaps and/or less comprehensive details.",
+            "IN_ADEQUATE": "Failed to consistently keep or provide any evidence of documentation regarding supervisory meetings and their agreed outcomes, neglecting the responsibility to maintain proper records.",
+            "NO_SUBMISSION": "This criterion has not been met."
+        }
+    },
+    {
+        "question": "03) Select an option that best represents the quality of project planning, progress monitoring and responsiveness to changing project requirements.",
+        "options": {
+            "EXCELLENT": "A highly comprehensive and well-thought-out plan of work (including an evaluation strategy) has been developed,  that demonstrates exceptional self-monitoring skills to track progress, and a detailed process to effectively  accommodate changes in project scope and requirements.",
+            "VERY_GOOD": "A comprehensive and well-thought-out plan of work (including an evaluation strategy) has been developed,  that demonstrates very good self-monitoring skills to track progress, and a general process to effectively  accommodate changes in project scope and requirements.",
+            "GOOD": "A generally well-thought-out plan of work (including an evaluation strategy) has been developed,  that demonstrates good self-monitoring skills to track progress, and consideration of how to effectively  accommodate changes in project scope and requirements.",
+            "ADEQUATE": "A basic plan of work (that includes an outline of evaluation considerations) has been developed,  that includes an adequate plan for self-monitoring and progress tracking, and limited consideration of how to effectively  accommodate changes in project scope and requirements.",
+            "IN_ADEQUATE": "A plan of work, strategy for evaluation, process for self - monitoring and accommodating changes in the project scope or requirements, are underdeveloped.",
+            "NO_SUBMISSION": "This criterion has not been met."
+        }
+    },
+    {
+        "question": "04) Select an option that best represents the student's initiative, independence, ownership, decision making and productivity.",
+        "options": {
+            "EXCELLENT": "Demonstrated exceptional initiative and organisational independence in every aspect of managing the project.Proactively taking ownership, making well- informed decisions, and consistently exceeding expectations.",
+            "VERY_GOOD": "displayed a high level of initiative and organisational independence in managing the project.Taking ownership of tasks, making informed decisions, and consistently delivering results that fully meet expectations.",
+            "GOOD": "Showing a good level of initiative and organisational independence in managing the project.Taking responsibility for assigned tasks, making appropriate decisions, and generally meeting project management expectations.",
+            "ADEQUATE": "displayed some initiative and organisational independence in managing the project. Completing assigned tasks with reasonable competence, making basic project management decisions when necessary.",
+            "IN_ADEQUATE": "failed to demonstrate initiative or organisational independence in managing the project.Showing a lack of ownership and Demonstrated uninformed project management decisions.",
+            "NO_SUBMISSION": "This criterion has not been met."
+        }
+    },
+    {
+        "question": "05) Select an option that best represents the student's willingness to take advice, to listen, to learn, to be open to alternate ideas and perspectives.",
+        "options": {
+            "EXCELLENT": "The problem defined is clear, definitively focused, and is clearly understood; as indicated by a distinct problem statement, and wholly appropriate project aims and objectives.",
+            "VERY_GOOD": "The problem defined is clear, focused, and is understood; as indicated by a problem statement, appropriate project aims and objectives.",
+            "GOOD": "The problem defined is generally clear, focused, and is mostly understood; as indicated by a problem statement, mostly appropriate project aims and objectives.",
+            "ADEQUATE": "The problem could be better defined and is not completely understood; as indicated by an unclear or underdeveloped problem proposition, and some unclear project aims and/or objectives.",
+            "IN_ADEQUATE": "The problem is not well defined and is not well understood; as indicated by the lack of a clear problem proposition, project aims and/or objectives.",
+            "NO_SUBMISSION": "This criterion has not been met."
+        }
+    },
+    {
+        "question": "06) Select an option that best represents the level of difficulty of the project, given the student's previous experience in the project domain.",
+        "options": {
+            "EXCELLENT": "An extremely challenging problem, given previous experience and domain of study.",
+            "VERY_GOOD": "A challenging problem, given previous experience and domain of study.",
+            "GOOD": "A demanding problem, given previous experience and domain of study.",
+            "ADEQUATE": "A reasonably demanding problem given previous experience and domain of study.",
+            "IN_ADEQUATE": "Not a very demanding problem and/or challenge, given previous experience and domain of study.",
+            "NO_SUBMISSION": "This criterion has not been met."
+        }
+    },
+    {
+        "question": "07) Select an option that best represents the quality and of the problem definition, problem understanding, and suitability of the stated aims and objectives.",
+        "options": {
+            "EXCELLENT": "The problem defined is clear, definitively focused, and is clearly understood; as indicated by a distinct problem statement, and wholly appropriate project aims and objectives.",
+            "VERY_GOOD": "The problem defined is clear, focused, and is understood; as indicated by a problem statement, appropriate project aims and objectives.",
+            "GOOD": "The problem defined is generally clear, focused, and is mostly understood; as indicated by a problem statement, mostly appropriate project aims and objectives.",
+            "ADEQUATE": "The problem could be better defined and is not completely understood; as indicated by an unclear or underdeveloped problem proposition, and some unclear project aims and/or objectives.",
+            "IN_ADEQUATE": "The problem is not well defined and is not well understood; as indicated by the lack of a clear problem proposition, project aims and/or objectives.",
+            "NO_SUBMISSION": " This criterion has not been met."
+        }
+    },
+    {
+        "question": " 08) Select an option that best represents the quality of the investigation into the context and background of the problem to be addressed.",
+        "options": {
+            "EXCELLENT": "A high-quality investigation has been undertaken and evidenced into the problem context and background.",
+            "VERY_GOOD": "A very good investigation has been undertaken and evidenced into the problem context and background.",
+            "GOOD": "A good investigation has been undertaken and evidenced into the problem context and background.",
+            "ADEQUATE": "An adequate investigation has been undertaken and evidenced into the problem context and background.",
+            "IN_ADEQUATE": "A minimal investigation has been undertaken with little evidence into the problem context and background.",
+            "NO_SUBMISSION": "This criterion has not been met."
+        }
+    },
+    {
+        "question": " 09) Select an option that best represents the extent of reading and investigation around the problem area, as evidenced in the report.",
+        "options": {
+            "EXCELLENT": "There is excellent evidence of reading and investigation around the problem area, (e.g., other research, artefacts, techniques, methodologies).",
+            "VERY_GOOD": "There is very good evidence of reading and investigation around the problem area, (e.g., other research, artefacts, techniques, methodologies).",
+            "GOOD": "There is good evidence of reading and investigation around the problem area, (e.g., other research, artefacts, techniques, methodologies).",
+            "ADEQUATE": "There is adequate evidence of reading and investigating around the problem area, (e.g., other research, artefacts, techniques, methodologies).",
+            "IN_ADEQUATE": " There is very limited evidence of reading and investigating around the problem area.",
+            "NO_SUBMISSION": "This criterion has not been met."
+        }
+    },
+    {
+        "question": " 10) Select an option that best represents the range of the literature-technology that has been reviewed.",
+        "options": {
+            "EXCELLENT": "An excellent range of literature-technology has been reviewed.",
+            "VERY_GOOD": "A very good range of literature-technology has been reviewed.",
+            "GOOD": "A good range of literature-technology has been reviewed.",
+            "ADEQUATE": "An adequate range of literature-technology has been reviewed.",
+            "IN_ADEQUATE": "A very limited range of literature-technology has been reviewed.",
+            "NO_SUBMISSION": "This criterion has not been met."
+        }
+    },
+    {
+        "question": " 11) Select an option that best represents the level of critical appraisal that you have applied to the literature-technology review.",
+        "options": {
+            "EXCELLENT": "Excellent critical appraisal of the literature-technology that has been reviewed.",
+            "VERY_GOOD": "Very good critical appraisal of the literature-technology that has been reviewed.",
+            "GOOD": "Good critical appraisal of the literature-technology that has been reviewed.",
+            "ADEQUATE": "Adequate critical appraisal of the literature-technology that has been reviewed.",
+            "IN_ADEQUATE": "Little critical appraisal of the literature-technology that has been reviewed.",
+            "NO_SUBMISSION": "This criterion has not been met."
+        }
+    },
+    {
+        "question": " 12) Select an option that best represents the levels of understanding of the underlying principles behind the problem to be addressed.",
+        "options": {
+            "EXCELLENT": "Clear evidence of an understanding of the underlying principles behind the problem.",
+            "VERY_GOOD": "Very good evidence of an understanding of the underlying principles behind the problem.",
+            "GOOD": "Good evidence of an understanding of the underlying principles behind the problem.",
+            "ADEQUATE": "Some evidence of understanding the underlying principles behind the problem.",
+            "IN_ADEQUATE": "Little evidence of an understanding of the underlying principles behind the problem.",
+            "NO_SUBMISSION": "This criterion has not been met."
+        }
+    },
+    {
+        "question": " 13) Select an option that best reflects the extent to which the literature-technology review, has informed the project methodology.",
+        "options": {
+            "EXCELLENT": "The literature-technology review and investigation, have directly informed the project methodology, and subsequently the actual work to be undertaken within the project to solve the problem.",
+            "VERY_GOOD": "The literature-technology review and investigation, have mostly informed the project methodology, and subsequently the actual work to be undertaken within the project to solve the problem.",
+            "GOOD": "The literature-technology review and investigation, have generally informed the project methodology, and subsequently much of the actual work to be undertaken within the project to solve the problem.",
+            "ADEQUATE": "The literature-technology review and investigation, have somewhat influenced the project methodology, and subsequently some aspects of the actual work to be undertaken within the project to solve the problem.",
+            "IN_ADEQUATE": "The literature-technology review and investigation, have a limited relevance to project methodology, and subsequently will have minimal relevance to the  work to be undertaken within the project to solve the problem.",
+            "NO_SUBMISSION": "This criterion has not been met."
+        }
+    },
+    {
+        "question": " 14) Select an option that best represents the extent of new knowledge, ideas and practical skills that were required to undertake the project.",
+        "options": {
+            "EXCELLENT": "The artefact delivered involved creation and/or mastery of completely new ideas, knowledge areas and practical concepts to the student.",
+            "VERY_GOOD": "The artefact delivered involved creation and/or mastery of many new ideas, knowledge areas and practical concepts to the student.",
+            "GOOD": "The artefact delivered involved creation and/or mastery of some new ideas, knowledge areas and practical concepts to the student.",
+            "ADEQUATE": "The artefact delivered involved creation and/or mastery of very few new ideas, knowledge areas and practical concepts to the student.",
+            "IN_ADEQUATE": "The artefact delivered could be achieved without extending taught ideas, knowledge areas and practical concepts to the student.",
+            "NO_SUBMISSION": "This criterion has not been met."
+        }
+    },
+    {
+        "question": " 15) Select an option that best represents the extent to which the project deliverables and outcomes have been evaluated against the initial project aims and work of others.",
+        "options": {
+            "EXCELLENT": "There is excellent evidence of the outcomes and deliverables being evaluated against the initial project aims and work of others.",
+            "VERY_GOOD": "There is very good evidence of the outcomes and deliverables being evaluated against the initial project aims and work of others.",
+            "GOOD": "There is good evidence of the outcomes and deliverables being evaluated against the initial project aims and work of others.",
+            "ADEQUATE": "There is adequate evidence of the outcomes and deliverables being evaluated against the initial project aims and work of others.",
+            "IN_ADEQUATE": "There is very little evidence of the outcomes and deliverables being evaluated against the initial project aims and work of others.",
+            "NO_SUBMISSION": "This criterion has not been met."
+        }
+    },
+    {
+        "question": " 16) Select an option that best represents the extent to which an assessment of alternative approaches or techniques  to solve the problem, have informed decisions on how to proceed with the project.",
+        "options": {
+            "EXCELLENT": "There is excellent evidence of having assessed alternative approaches to solving problems and making sound decisions on how to proceed.",
+            "VERY_GOOD": "There is very good evidence of having assessed alternative approaches to solving problems and making sound decisions on how to proceed.",
+            "GOOD": "There is good evidence of having assessed alternative approaches to solving problems and making sound decisions on how to proceed.",
+            "ADEQUATE": "There is adequate evidence of having assessed alternative approaches to solving problems and making generally reasonable decisions on how to proceed.",
+            "IN_ADEQUATE": "There is little evidence of having assessed alternative approaches to solving problems.",
+            "NO_SUBMISSION": "This criterion has not been met."
+        }
+    },
+    {
+        "question": "17) Select an option that best classifies the student's ability to 'pivot' or adjust an existing solution, following technical advice that may lead to an improved solution.",
+        "options": {
+            "EXCELLENT": "There is excellent evidence of an ability to benefit from technical advice and choosing to backtrack to produce a better solution.",
+            "VERY_GOOD": "There is very good evidence of an ability to benefit from technical advice and choosing to backtrack to produce a better solution.",
+            "GOOD": "There is good evidence of an ability to benefit from technical advice and choosing to backtrack to produce a better solution.",
+            "ADEQUATE": "There is adequate evidence of an ability to benefit from technical advice and choosing to backtrack to produce a better solution.",
+            "IN_ADEQUATE": "There is little evidence of an ability to benefit from technical advice and choosing to backtrack to produce a better- quality solution.",
+            "NO_SUBMISSION": "This criterion has not been met."
+        }
+    },
+    {
+        "question": "18) Select an option that best classifies the student's self-reliance, technical resourcefulness, problem solving and practical application skills.",
+        "options": {
+            "EXCELLENT": "There is excellent evidence of self-reliance and resourcefulness in solving technical problems, demonstrated by seeking of technical information, understanding, then applying it.",
+            "VERY_GOOD": "There is very good evidence of self-reliance and resourcefulness in solving technical problems, demonstrated by seeking of technical information, understanding, then applying it.",
+            "GOOD": "There is good evidence of self-reliance and resourcefulness in solving technical problems, demonstrated by seeking of technical information, understanding, then applying it.",
+            "ADEQUATE": "There is adequate evidence of self-reliance and resourcefulness in solving technical problems demonstrated by seeking of technical information, understanding it, and then generally applying it.",
+            "IN_ADEQUATE": "There is little evidence of self-reliance and resourcefulness in solving technical problems with little to no demonstration of seeking technical information, understanding it, and applying it.",
+            "NO_SUBMISSION": "This criterion has not been met."
+        }
+    },
+    {
+        "question": " 19) Select an option that best classifies the quality of the project artefact.",
+        "options": {
+            "EXCELLENT": "The artefact delivered is of a professional quality.",
+            "VERY_GOOD": "The artefact delivered is of a very good quality.",
+            "GOOD": "The artefact delivered is of a good quality.",
+            "ADEQUATE": "The artefact delivered is of an adequate quality.",
+            "IN_ADEQUATE": "The artefact delivered is of limited quality (e.g., underdeveloped, unrefined).",
+            "NO_SUBMISSION": "This criterion has not been met."
+        }
+    },
+    {
+        "question": " 20) Select an option that best represents the extent to which the artefact has met the original aims of the project.",
+        "options": {
+            "EXCELLENT": "There is evidence to show that the artefact has successfully met all of the original aims of the project.",
+            "VERY_GOOD": "There is evidence to show that the artefact has successfully met virtually all of the original aims of the project.",
+            "GOOD": "There is evidence to show that the artefact has successfully met many of the original aims of the project.",
+            "ADEQUATE": "There is evidence to show that the artefact has met some of the original aims of the project.",
+            "IN_ADEQUATE": "There is evidence to show that the artefact has met very few of the original aims of the project.",
+            "NO_SUBMISSION": "This criterion has not been met."
+        }
+    },
+    {
+        "question": " 21) Select an option that best classifies the scope and complexity of the artefact, given the degree of study.",
+        "options": {
+            "EXCELLENT": "The artefact developed is of a significant scope and complexity given the degree of study.",
+            "VERY_GOOD": "The artefact developed is of a very good scope and complexity given the degree of study.",
+            "GOOD": "The artefact developed is of a good scope and complexity given the degree of study.",
+            "ADEQUATE": "The artefact developed is of an adequate scope and complexity given the degree of study.",
+            "IN_ADEQUATE": "The artefact developed is of a very limited scope and complexity given the degree of study.",
+            "NO_SUBMISSION": "This criterion has not been met."
+        }
+    },
+    {
+        "question": "22) Select an option that best classifies the  internal elegance, engineering and/or technical execution of the artefact.",
+        "options": {
+            "EXCELLENT": "There is evidence to show that the internal elegance, engineering and/or technical execution of the artefact delivered, is excellent.",
+            "VERY_GOOD": "There is evidence to show that the internal elegance, engineering and/or technical execution of the artefact delivered, is very good.",
+            "GOOD": "There is evidence to show that the internal elegance, engineering and/or technical execution of the artefact delivered, is good.",
+            "ADEQUATE": "There is evidence to show that the internal elegance, engineering and/or technical execution of the artefact delivered, is adequate.",
+            "IN_ADEQUATE": "There is evidence to show that the internal elegance/engineering/technical execution of the artefact delivered, is very limited and underdeveloped.",
+            "NO_SUBMISSION": "This criterion has not been met."
+        }
+    },
+    {
+        "question": " 23) Select an option that best classifies the quality of the project artefact.",
+        "options": {
+            "EXCELLENT": "There is an  excellent reflection on the project process, and  an outstanding account of achievements in overcoming issues faced during the project lifetime.",
+            "VERY_GOOD": "There is a very good reflection on the project process, and  a proficient account of achievements in overcoming issues faced during the project lifetime.",
+            "GOOD": "There is a good reflection on the project process, and a good account of achievements in overcoming issues faced during the project lifetime.",
+            "ADEQUATE": "There is an adequate reflection on the project process, which includes a minimal account of achievements in overcoming issues faced during the project lifetime.",
+            "IN_ADEQUATE": "There is very limited reflection on the project process, which does not include any account of achievements in overcoming issues faced during the project lifetime.",
+            "NO_SUBMISSION": "This criterion has not been met."
+        }
+    },
+    {
+        "question": " 24) Select an option that best represents the extent to which the artefact has met the original aims of the project.",
+        "options": {
+            "EXCELLENT": "There is an excellent account of what would have been done differently with hindsight.",
+            "VERY_GOOD": "There is a very good account of what would have been done differently with hindsight.",
+            "GOOD": "There is a good account of what would have been done differently with hindsight.",
+            "ADEQUATE": "There is an adequate account of what would have been done differently with hindsight.",
+            "IN_ADEQUATE": "There is an inadequate account of what would have been done differently with hindsight.",
+            "NO_SUBMISSION": "This criterion has not been met."
+        }
+    },
+    {
+        "question": " 25) Select an option that best classifies the scope, relevance and suitability of proposed future work.",
+        "options": {
+            "EXCELLENT": "There is an excellent description of fully relevant future work, which could be undertaken with the project.",
+            "VERY_GOOD": "There is a very good description of relevant future work, which could be undertaken with the project.",
+            "GOOD": "There is a good description of some relevant future work, which could be undertaken with the project.",
+            "ADEQUATE": "There is an adequate description of future work which could be undertaken with the project.",
+            "IN_ADEQUATE": "There is a very limited indication of future work, which could be undertaken with the project.",
+            "NO_SUBMISSION": "This criterion has not been met."
+        }
+    },
+    {
+        "question": " 26) Select an option that best classifies the student's understanding and account of legal considerations that relate to their project.",
+        "options": {
+            "EXCELLENT": "There is excellent evidence of an understanding of relevant legal issues related to the project, as demonstrated by statements made in the project report.",
+            "VERY_GOOD": "There is very good evidence of an understanding of relevant legal issues related to the project, as demonstrated by statements made in the project report.",
+            "GOOD": "There is good evidence of an understanding of relevant legal issues related to the project, as demonstrated by statements made in the project report.",
+            "ADEQUATE": "There is adequate evidence of an understanding of relevant legal issues related to the project, as demonstrated by statements made in the project report.",
+            "IN_ADEQUATE": "There is little evidence of an understanding of relevant legal issues related to the project, as demonstrated by a lack of statements made in the project report.",
+            "NO_SUBMISSION": "This criterion has not been met."
+        }
+    },
+    {
+        "question": " 27) Select an option that best classifies the student's understanding and account of social considerations that relate to their project.",
+        "options": {
+            "EXCELLENT": "There is excellent evidence of an understanding of relevant social issues related to the project, as demonstrated by statements made in the project report.",
+            "VERY_GOOD": "There is very good evidence of an understanding of relevant social issues related to the project, as demonstrated by statements made in the project report.",
+            "GOOD": "There is good evidence of an understanding of relevant social issues related to the project, as demonstrated by statements made in the project report.",
+            "ADEQUATE": "There is adequate evidence of an understanding of relevant social issues related to the project, as demonstrated by statements made in the project report.",
+            "IN_ADEQUATE": "There is little evidence of an understanding of relevant social issues related to the project, as demonstrated by a lack of statements made in the project report.",
+            "NO_SUBMISSION": "This criterion has not been met."
+        }
+    },
+    {
+        "question": " 28) Select an option that best classifies the student's understanding and account of ethical considerations that relate to their project.",
+        "options": {
+            "EXCELLENT": "There is excellent evidence of understanding of relevant ethical issues related to the project, as demonstrated by statements made in the project report and suitable ethical clearance being sought and granted.",
+            "VERY_GOOD": "There is very good evidence of understanding of relevant ethical issues related to the project, as demonstrated by statements made in the project report and suitable ethical clearance being sought and granted.",
+            "GOOD": "There is good evidence of understanding of relevant ethical issues related to the project, as demonstrated by statements made in the project report and suitable ethical clearance being sought and granted.",
+            "ADEQUATE": "There is adequate evidence of understanding of relevant ethical issues related to the project, as demonstrated by statements made in the project report and suitable ethical clearance being sought and granted.",
+            "IN_ADEQUATE": "There is little evidence of understanding of relevant ethical issues related to the project, as demonstrated by a lack of statements made in the project report, and suitable ethical clearance being sought and granted.",
+            "NO_SUBMISSION": "This criterion has not been met."
+        }
+    },
+    {
+        "question": "29) Select an option that best classifies the student's understanding and account of professional considerations that relate to their project.",
+        "options": {
+            "EXCELLENT": "There is excellent evidence of an understanding of relevant professional issues related to the project, as demonstrated by statements made in the project report.",
+            "VERY_GOOD": "There is very good evidence of an understanding of relevant professional issues related to the project, as demonstrated by statements made in the project report.",
+            "GOOD": "There is good evidence of an understanding of relevant professional issues related to the project, as demonstrated by statements made in the project report.",
+            "ADEQUATE": "There is adequate evidence of an understanding of relevant professional issues related to the project, as demonstrated by statements made in the project report.",
+            "IN_ADEQUATE": "There is little evidence of an understanding of relevant professional issues related to the project, as demonstrated by a lack of statements made in the project report.",
+            "NO_SUBMISSION": "This criterion has not been met."
+        }
+    },
+    {
+        "question": " 30) Select an option that best classifies the report formatting, layout, structure, presentation and correct useage of the requisite template.",
+        "options": {
+            "EXCELLENT": "The report conforms to all standards regarding the quality and format of presentation, including correct usage of the project report template.",
+            "VERY_GOOD": "The report conforms to almost all standards regarding the quality and format of presentation; and a mostly correct usage of the project report template.",
+            "GOOD": "The report conforms to many standards regarding the quality and format of presentation; and a generally correct usage of the project report template.",
+            "ADEQUATE": "The report conforms to some standards regarding the quality and format of presentation; and a partially correct usage of the project report template.",
+            "IN_ADEQUATE": "The report conforms poorly to standards regarding quality and format of presentation, and generally does not use the project report template correctly.",
+            "NO_SUBMISSION": "This criterion has not been met."
+        }
+    },
+    {
+        "question": " 31) Select an option that best classifies the quality and expression of written content, the clarity in communicating the work completed, and the appropriate use of technical language in the project report.",
+        "options": {
+            "EXCELLENT": "The quality of written expression is excellent and clearly conveys the work completed, using appropriate technical language.",
+            "VERY_GOOD": "Overall, the quality of written expression is very good and mostly conveys the work completed, using appropriate technical language.",
+            "GOOD": "Overall, the quality of written expression is good and generally conveys the work completed, using appropriate technical language.",
+            "ADEQUATE": "Overall, the quality of written expression is adequate and generally conveys the work completed, using some appropriate technical language.",
+            "IN_ADEQUATE": "Overall, the quality of written expression is poor, and does not use appropriate technical language to convey the work completed.",
+            "NO_SUBMISSION": "This criterion has not been met."
+        }
+    },
+    {
+        "question": " 32) Select an option that best classifies the student's understanding and acknowledgement of the academic context of the work undertaken.",
+        "options": {
+            "EXCELLENT": "It is very clear that the academic context of the work undertaken is fully acknowledged, as evidenced by the scope and depth of the literature and/or technology review.",
+            "VERY_GOOD": "It is clear that the academic context of the work undertaken is mostly acknowledged, as evidenced by the scope and depth of the literature and/or technology review.",
+            "GOOD": "It is clear that the academic context of the work undertaken is generally acknowledged, as evidenced by the scope and depth of the literature and/or technology review.",
+            "ADEQUATE": "It is clear that the academic context of the work undertaken is somewhat acknowledged, as evidenced by the scope and depth of the literature and/or technology review.",
+            "IN_ADEQUATE": "It is clear that the academic context of the work undertaken has been minimally acknowledged, as evidenced by the scope and depth of the literature and/or technology review.",
+            "NO_SUBMISSION": "This criterion has not been met."
+        }
+    },
+    {
+        "question": "33) Select an option that best classifies the student's independence and resourcefulness regarding the academic production of the project report.",
+        "options": {
+            "EXCELLENT": "Demonstrated excellent independence and resourcefulness in the conduct of the academic production of the report.",
+            "VERY_GOOD": "Demonstrated very good independence and resourcefulness in the conduct of the academic production of the report.",
+            "GOOD": "Demonstrated good independence and resourcefulness in the conduct of the academic production of the report.",
+            "ADEQUATE": "Demonstrated adequate independence and resourcefulness in the conduct of the academic production of the report.",
+            "IN_ADEQUATE": "Demonstrated inadequate independence and resourcefulness in the conduct of the academic production of the report.",
+            "NO_SUBMISSION": "This criterion has not been met."
+        }
+    },
+    {
+        "question": " 34) Select an option that best classifies the student's application of analytical thought, as evidenced in their project report.",
+        "options": {
+            "EXCELLENT": "There is evidence that shows excellent analytical thought as indicated by high-quality argumentation, weighing of evidence, succinct summarisation, enlightened commentaries, and the making of novel connections.",
+            "VERY_GOOD": "There is evidence that shows very good analytical thought, as indicated by all or combinations of the following: the quality of argumentation, weighing of evidence, succinct summarisation, enlightened commentaries, and the making of novel connections.",
+            "GOOD": "There is evidence that shows good analytical thought as indicated by all or combinations of the following: the quality of argumentation, weighing of evidence, succinct summarisation, enlightened commentaries, and the making of novel connections.",
+            "ADEQUATE": "There is evidence that shows adequate analytical thought as indicated by all or combinations of the following: the quality of argumentation, weighing of evidence, succinct summarisation, enlightened commentaries, and the making of novel connections.",
+            "IN_ADEQUATE": "There is evidence that shows very limited analytical thought as indicated by a lack of all or combinations of the following: the quality of argumentation, weighing of evidence, succinct summarisation, enlightened commentaries, and the making of novel connections.",
+            "NO_SUBMISSION": "This criterion has not been met."
+        }
+    },
+    {
+        "question": "35) Select an option that best classifies the quality of the conclusion, levels of critical analysis and comparisons between the project results, and results from the work of others.",
+        "options": {
+            "EXCELLENT": "An excellent self-appraisal has been evidenced through summing up, comparing achievements to aims, evaluating the strengths and weaknesses of the work, and a comparison of project results, to the results from the work of others in the same problem domain.",
+            "VERY_GOOD": "A very good self-appraisal has been evidenced through all or combinations of the following:  summing up, comparing achievements to aims, evaluating the strengths and weaknesses of the work, and a comparison of project results, to the results from the work of others in the same problem domain.",
+            "GOOD": "A good self-appraisal has been evidenced through all or combinations of the following:  summing up, comparing achievements to aims, evaluating the strengths and weaknesses of the work, and a comparison of project results, to the results from the work of others in the same problem domain.",
+            "ADEQUATE": "An adequate self-appraisal has been evidenced through all or combinations of the following:  summing up, comparing achievements to aims, evaluating the strengths and weaknesses of the work, and a comparison of project results, to the results from the work of others in the same problem domain.",
+            "IN_ADEQUATE": "A minimal self-appraisal with little to no evidence of summing up, or comparing achievements to aims, or evaluating the strengths and weaknesses of the work, or a comparison of project results, to the results from the work of others in the same problem domain.",
+            "NO_SUBMISSION": "This criterion has not been met."
+        }
+    }
+]

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        body {
+            margin: 0px;
+            padding: 15px;
+            font-size: 1rem;
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .option-title {
+            margin-top: 0px;
+            margin-bottom: 1rem;
+            color: var(--clr-pr);
+            padding-bottom: 15px;
+            padding-top: 10px;
+            border-bottom: 1px solid black;
+        }
+
+        .option-group {
+            border: 1px solid black;
+            box-shadow: 0px 4px 10px #0003;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .option-group.excellent .option:nth-child(2) {
+            background-color: #a9d08f;
+        }
+
+        .option-group.verygood .option:nth-child(3) {
+            background-color: #c5deb4;
+        }
+
+        .option-group.good .option:nth-child(4) {
+            background-color: #e2efdb;
+        }
+
+        .option-group.adequate .option:nth-child(5) {
+            background-color: #d5dce4;
+        }
+
+        .option-group.inadequate .option:nth-child(6) {
+            background-color: #fecece;
+        }
+
+        .option-group.nosubmission .option:nth-child(7) {
+            background-color: #ffb3b3;
+        }
+
+
+        .option-wrap {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .option {
+            padding: 10px;
+            flex-grow: 1;
+            width: 100%;
+        }
+
+        .score {
+            padding: 10px;
+            border-left: 1px solid #656565;
+        }
+
+        .option-head {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 5px;
+        }
+
+        .option-head label {
+            cursor: pointer;
+            flex-grow: 1;
+        }
+
+        .option-remark {
+            text-align: justify;
+            font-size: 14px;
+            color: var(--clr-text-muted);
+        }
+
+        .option-selected-value-wrap {
+            font-size: 1.5rem;
+            text-align: right;
+            font-weight: 500;
+        }
+
+        .option input[type="radio"] {
+            flex-shrink: 0;
+            height: 20px;
+            width: 20px;
+            margin: 0px;
+            cursor: pointer;
+        }
+
+
+        .row {
+            display: flex;
+            margin-bottom: 16px;
+        }
+
+        .number {
+            width: fit-content;
+        }
+
+        .title {
+            width: 30%;
+            min-width: 300px;
+        }
+
+        .desc {
+            flex-grow: 1;
+        }
+
+        .number,
+        .desc,
+        .title {
+            padding: 10px;
+            border: 1px solid #656565;
+        }
+    </style>
+
+    <div>
+        <div class="option-group verygood">
+            <div class="option-wrap">
+                <div style="text-align: center;" class="option">
+                    1
+                </div>
+                <div class="option">
+                    <div class="option-head">
+                        <input type="radio" name="option 1" value="5" data-value="excellent" />
+                        <label for="">Excellent</label>
+                    </div>
+                    <div class="option-remark">Consistently attended all scheduled meetings with the supervisor. Always
+                        punctual, and consistently displayed a highly prepared and organised approach. Demonstrated
+                        exceptional leadership skills by gradually assuming the lead role in meetings, effectively
+                        guiding discussions and driving artefactive outcomes.</div>
+                </div>
+                <div class="option">
+                    <div class="option-head">
+                        <input type="radio" name="option 1" value="4" data-value="verygood" />
+                        <label for="">Very good</label>
+                    </div>
+                    <div class="option-remark">Regularly attended scheduled meetings with supervisor, on time, and
+                        consistently arrived prepared with relevant materials and information. Actively participated in
+                        meetings, providing valuable input, and contributing to discussions. Demonstrated increasing
+                        confidence and initiative during meetings, occasionally taking the lead on certain agenda items.
+                    </div>
+                </div>
+                <div class="option">
+                    <div class="option-head">
+                        <input type="radio" name="option 1" value="3" data-value="good" />
+                        <label for="">Good</label>
+                    </div>
+                    <div class="option-remark">Attended most scheduled meetings with the supervisor, generally arrived
+                        on time and adequately prepared. Generally participated in meetings, offering input, and
+                        engaging in discussions when prompted. Occasionally displayed signs of taking initiative or
+                        assuming a leadership role during meetings.</div>
+                </div>
+                <div class="option">
+                    <div class="option-head">
+                        <input type="radio" name="option 1" value="2" data-value="adequate" />
+                        <label for="">Adequate</label>
+                    </div>
+                    <div class="option-remark">Attended the majority of scheduled meetings with the supervisor, but
+                        occasionally arrived late or unprepared. Showed minimal participation in meetings, with limited
+                        contributions to discussions. Rarely demonstrated any initiative or willingness to take the lead
+                        during meetings.</div>
+                </div>
+                <div class="option">
+                    <div class="option-head">
+                        <input type="radio" name="option 1" value="1" data-value="inadequate" />
+                        <label for="">Inadequate</label>
+                    </div>
+                    <div class="option-remark">Consistently failed to attend scheduled meetings with the supervisor or
+                        frequently arrived late and unprepared. Rarely participated in meetings, showing disinterest or
+                        a lack of engagement. Never took the lead or demonstrated any initiative during meetings.</div>
+                </div>
+                <div class="option">
+                    <div class="option-head">
+                        <input type="radio" name="option 1" value="0" data-value="nosubmission" />
+                        <label for="">No submission</label>
+                    </div>
+                    <div class="option-remark">This criterion has not been met.</div>
+                </div>
+                <div class="score">
+                    1.9
+                </div>
+            </div>
+        </div>
+        <div class="option-group excellent">
+            <div class="option-wrap">
+                <div style="text-align: center;" class="option">
+                    1
+                </div>
+                <div class="option">
+                    <div class="option-head">
+                        <input type="radio" name="option 1" value="5" data-value="excellent" />
+                        <label for="">Excellent</label>
+                    </div>
+                    <div class="option-remark">Consistently attended all scheduled meetings with the supervisor. Always
+                        punctual, and consistently displayed a highly prepared and organised approach. Demonstrated
+                        exceptional leadership skills by gradually assuming the lead role in meetings, effectively
+                        guiding discussions and driving artefactive outcomes.</div>
+                </div>
+                <div class="option">
+                    <div class="option-head">
+                        <input type="radio" name="option 1" value="4" data-value="verygood" />
+                        <label for="">Very good</label>
+                    </div>
+                    <div class="option-remark">Regularly attended scheduled meetings with supervisor, on time, and
+                        consistently arrived prepared with relevant materials and information. Actively participated in
+                        meetings, providing valuable input, and contributing to discussions. Demonstrated increasing
+                        confidence and initiative during meetings, occasionally taking the lead on certain agenda items.
+                    </div>
+                </div>
+                
+                
+                <div class="score">
+                    1.9
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="desc">
+            Good knowledge and understanding of the subject, with only minor gaps or omissions. Arguments/answers are
+            clear, structured, and mainly accurate. Very good attainment of learning outcomes. A good level of insight
+            and critical evaluation of the material. A generally thorough and up-to-date account of relevant theoretical
+            and empirical material at the forefront of the discipline. A generally thorough understanding and
+            integration of material supporting a cogent argument. Competent writing of a good academic standard.
+        </div>
+    </div>
+    <div class="row">
+        <div class="title">Feedback for attendance, timekeeping, engagement and preparation for supervision meetings.
+        </div>
+        <div class="number">1</div>
+        <div class="desc">
+            -Attend all scheduled meetings with the supervisor without exception
+            - Always be punctual for meetings and consistently display a highly prepared and organized approach
+            - Take the lead in meetings more frequently and effectively guide discussions
+            - Drive artifact outcomes with exceptional leadership skills
+            - Continuously demonstrate confidence and initiative during meetings
+            - Provide valuable input and contribute actively to discussions in a consistent manner.
+        </div>
+    </div>
+</body>
+
+</html>

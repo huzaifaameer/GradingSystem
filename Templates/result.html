@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+
+<main class="main print-exact">
+    <section>
+        <div class="max-w-web mx-auto p-15" id="content-to-pdf">
+            <div class="shadow p-15 mb-15">
+                <table>
+                    <tr>
+                        <th>Student Information</th>
+                        <th>Values</th>
+                    </tr>
+                    {% for option, description in studentInfo.items %}
+
+                    <tr>
+                        <td>{{ option }}</td>
+                        <td>{{ description }}</td>
+                    </tr>
+
+                    {% endfor %}
+
+                </table>
+            </div>
+            <div class="shadow p-15 mb-15">
+                <h2 style="margin: 0px; margin-bottom: 0.5em;">Remarks</h2>
+                <p>{{prompt}}</p>
+            </div>
+            <div class="shadow p-15 mb-15">
+                <h2 style="margin: 0px; margin-bottom: 0.5em;">OPEN-AI Response</h2>
+                <p>{{prompt_response}}</p>
+            </div>
+        </div>
+
+        <form action="/result/" method="post">
+            {% csrf_token %}
+
+            {% for option, description in studentInfo.items %}
+            <input type="text" name="{{ option }}" value="{{ description }}" hidden>
+            {% endfor %}
+
+            <input type="text" name="prompt" value="{{prompt}}" hidden>
+            <input type="text" name="prompt_response" value="{{prompt_response}}" hidden>
+            <!-- <button type="submit">Convert to PDF</button> -->
+            <div style="text-align: center;">
+
+                <button type="submit" class="site-btn">Generate PDF</button>
+            </div>
+        </form>
+
+    </section>
+</main>
+{% endblock%}
